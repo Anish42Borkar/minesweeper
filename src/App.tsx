@@ -16,6 +16,7 @@ function App() {
   return (
     <main>
       <h1 className='title'>Minesweeper</h1>
+      
       <p className='msg'>{resultMessage} </p>
       <div className='subtext'>Mines Left: {numberOfMines}</div>
       <div ref={boxRef} className='board'>
